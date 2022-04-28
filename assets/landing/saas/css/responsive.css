@@ -1,0 +1,225 @@
+/*--------------------------------------------------
+    ## All responsive style
+---------------------------------------------------*/
+@media all and (min-width: 1600px) {
+	.back-to-top {
+	    right: 70px;
+	    bottom: 50px;
+	}
+}
+@media all and (max-width: 1599px) {
+	.banner-area-1 {
+	    padding: 130px 0;
+	}
+	.banner-area-2 {
+	    padding: 175px 0 0;
+	}
+}
+@media all and (max-width: 1199px) {
+	.social-media li a {
+	    height: 46px;
+	    width: 46px;
+	    line-height: 51px;
+	}
+	.banner-inner h1 {
+	    font-size: 45px;
+	    color: #fff;
+	    margin-bottom: 32px;
+	}
+	.banner-area-1 {
+	    padding: 210px 0;
+	}
+	.section-title h2 {
+	    font-size: 40px;
+	}
+	.business-area-inner {
+	    background-size: 64% !important;
+	}
+	.banner-area-1 .video-thumb {
+	    margin-right: auto;
+	}
+	.banner-area-1 .video-thumb .video-play-btn {
+	    left: 31%;
+	}
+	.navbar-area .nav-container .logo a img {
+		width: 160px;
+	}
+	.navbar-area .nav-container {
+	    background-color: transparent;
+	    padding: 18px 15px;
+	    transition: all 0.4s;
+	}
+	.single-pricing-inner .price-header h4 {
+		font-size: 28px;
+	}
+	.single-blog-inner .details h5 {
+		font-size: 22px;
+	}
+
+}
+@media all and (max-width: 991px) {
+	.banner-area-1 {
+	    padding: 180px 0;
+	}
+	.feature-slider .owl-nav {
+	    position: relative;
+	    text-align: center;
+	    top: auto;
+	}
+	.review-slider .owl-nav {
+		text-align: center;
+	}
+	.social-media li a {
+	    height: 42px;
+	    width: 42px;
+	    line-height: 47px;
+	}
+	.counter-area-inner {
+	    padding: 50px 20px 5px;
+	}
+	.gallery-slider .owl-item {
+	    transform: scale(1, 0.75);
+	}
+	.gallery-slider .owl-item.center {
+	    transform: scale(1, 1);
+	}
+	.banner-area-2 {
+	    padding: 160px 0 0;
+	}
+	.business-area-inner {
+	    background: none !important;
+	}
+	.review-thumb-wrap-2 img {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.review-slider-2 {
+	    margin-left: 0;
+	}
+	.review-slider-2 .owl-nav {
+	    right: auto;
+	    bottom: auto;
+	    position: relative;
+	}
+	.contact-g-map iframe {
+		height: 350px;
+	}
+	.navbar-area .nav-container .navbar-collapse .navbar-nav li:hover a,
+	.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:before {
+		color: #333333;
+	}
+	.call-to-action-inner {
+	    padding: 40px 30px;
+	}
+}
+@media all and (max-width: 767px) {
+	.subscribe-wrap {
+	    padding: 50px 30px;
+	}
+	.footer-bottom .widget_nav_menu li {
+	    margin: 0 8px 2px 8px;
+	}
+	.single-blog-inner .thumb img {
+		width: 100%;
+	}
+	.call-to-action-inner h3 {
+	    font-size: 28px;
+	}
+	.call-to-action-inner {
+	    padding: 40px 20px;
+	}
+	.call-to-action-inner {
+		text-align: center;
+	}
+	.call-to-action-inner .btn {
+		margin-top: 30px;
+	}
+}
+@media all and (max-width: 575px) {
+	.banner-inner h1 {
+	    font-size: 35px;
+	}
+	.section-title h2 {
+	    font-size: 30px;
+	}
+	.banner-area-1 {
+	    padding: 180px 0 130px;
+	}
+	.nav-right-part .btn {
+	    height: 40px;
+	    line-height: 40px;
+	    padding: 0 12px;
+	    font-size: 12px;
+	}
+	.gallery-slider .owl-item {
+	    transform: scale(1);
+	}
+	.gallery-slider .owl-item.center {
+	    transform: scale(1);
+	}
+	.navbar-area .nav-container .logo a img {
+	    height: auto;
+	    width: 166px;
+	}
+	.single-business-inner .media-left {
+	    margin-right: 22px;
+	}
+	.single-business-inner .media-body p {
+	    font-size: 16px;
+	}
+	.single-review-inner {
+	    padding: 45px 25px 43px 25px;
+	}
+	.page-title-area {
+	    padding: 160px 0 100px 0;
+	}
+	.page-title-area .page-title {
+	    font-size: 35px;
+	}
+	.contact-page-thumb {
+	    min-height: 300px;
+	}
+	.contact-g-map iframe {
+		height: 300px;
+	}
+	.video-thumb .video-play-btn {
+	    bottom: 4px;
+	}
+	.single-blog-inner .details {
+	    padding: 20px 25px 30px 25px;
+	}
+}
+@media all and (max-width: 360px) {
+	.td-page-navigation .pagination li a {
+	    height: 45px;
+	    width: 45px;
+	    margin-right: 8px;
+	    line-height: 48px;
+	    font-size: 16px;
+	}
+	.nav-right-part-mobile {
+		display: none;
+	}
+	.banner-area-2 {
+	    padding: 130px 0 0;
+	    margin-bottom: 70px;
+	}
+	.call-to-action-inner h3 {
+	    font-size: 26px;
+	}
+	.contact-form-inner.bg-gray {
+	    padding: 40px 20px;
+	}
+	.contact-page-thumb {
+	    min-height: 260px;
+	}
+	.single-blog-inner .details {
+	    padding: 20px 20px 30px 20px;
+	}
+	.single-faq-inner {
+	    padding: 14px 16px 16px;
+	}
+	.single-faq-inner .card-header button {
+	    font-size: 16px;
+	}
+}

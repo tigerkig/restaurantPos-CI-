@@ -1,0 +1,46 @@
+{
+  "paths": {
+    "customizerJs": [
+      "../frequent_changing/js/vendor/autoprefixer.js",
+      "../frequent_changing/js/vendor/less.min.js",
+      "../frequent_changing/js/vendor/jszip.min.js",
+      "../frequent_changing/js/vendor/uglify.min.js",
+      "../frequent_changing/js/vendor/Blob.js",
+      "../frequent_changing/js/vendor/FileSaver.js",
+      "../frequent_changing/js/raw-files.min.js",
+      "../frequent_changing/js/src/customizer.js"
+    ],
+    "docsJs": [
+      "../frequent_changing/js/vendor/holder.min.js",
+      "../frequent_changing/js/vendor/ZeroClipboard.min.js",
+      "../frequent_changing/js/vendor/anchor.min.js",
+      "../frequent_changing/js/src/application.js"
+    ]
+  },
+  "config": {
+    "autoprefixerBrowsers": [
+      "Android 2.3",
+      "Android >= 4",
+      "Chrome >= 20",
+      "Firefox >= 24",
+      "Explorer >= 8",
+      "iOS >= 6",
+      "Opera >= 12",
+      "Safari >= 6"
+    ],
+    "jqueryCheck": [
+      "if (typeof jQuery === 'undefined') {",
+      "  throw new Error('Bootstrap\\'s JavaScript requires jQuery')",
+      "}\n"
+    ],
+    "jqueryVersionCheck": [
+      "+function ($) {",
+      "  'use strict';",
+      "  var version = $.fn.jquery.split(' ')[0].split('.')",
+      "  if ((version[0] < 2 && version[1] < 9) || (version[0] == 1 && version[1] == 9 && version[2] < 1) || (version[0] > 3)) {",
+      "    throw new Error('Bootstrap\\'s JavaScript requires jQuery version 1.9.1 or higher, but lower than version 4')",
+      "  }",
+      "}(jQuery);\n\n"
+    ]
+  }
+}

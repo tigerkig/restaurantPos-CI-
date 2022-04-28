@@ -1,0 +1,402 @@
+body{
+    background-color:#fff;
+    font-family: 'Yantramanav', sans-serif;
+    margin:0px;color:000;
+    overflow-x: hidden;
+}
+p,h1,h2,h3,h4,h5,h6,div,td,tr,ul,li{
+    font-size: 14px;
+    margin:0px;
+    line-height: 20px;
+}
+.fix{overflow:hidden;}
+.floatleft{float:left;}
+.floatright{float:right;}
+.text-left{text-align: :left;}
+.text-center{text-align: :center;}
+.text-right{text-align: :right;}
+.text-white{color:#fff;}
+.text-black{color:#000;}
+.text-grey{color:#cfcfcf;}
+.half{width:50%;}
+.green-background{background-color:#5DB745;}
+.dark-green-background{background-color:#4D7021;}
+.light-blue-background{background-color: #7367f0;}
+.dark-blue-background{background-color: #2b2385;}
+.light-sky-background{background-color: #45b7b7;}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 99; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+/* .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0px;
+    border: 1px solid #888;
+    width: 350px;
+    border-radius:10px;
+    overflow:hidden;
+} */
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
+*:focus {
+    outline: none;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #dcdcdc;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #dcdcdc;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #dcdcdc;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #dcdcdc;
+}
+select{
+    padding-left: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 25px;
+    background: url(data:image/gif;base64,R0lGODlhCwALAJEAAAAAAP///xUVFf///yH5BAEAAAMALAAAAAALAAsAAAIPnI+py+0/hJzz0IruwjsVADs=);
+    background-repeat: no-repeat;
+    background-position: 95% 42%;
+}
+button{
+    border:0px solid;
+    border-radius:5px;
+    box-shadow: 1px 1px 1px 0px #909090; 
+    border: solid 1px #cacaca;
+    line-height:34px; 
+    font-size:11px;
+    padding:0px 10px;
+    background-color: white;
+    cursor:pointer;
+}
+
+/* button:hover, .holder .operation_button:hover {
+    background-color: #ccc;
+} */
+
+.wrapper {
+
+}
+/* .wrapper .main_top { background-color:#404E67; } */
+/* .wrapper .main_top .top_header {
+width:30%;
+} */
+.wrapper .main_top .top_header h1{ 
+    font-weight: normal;
+    line-height: 50px;
+    margin: 0px 0px 0px 5px;
+    font-size: 24px;
+}
+/* .wrapper .main_top .top_menu {
+    width:70%;
+} */
+.wrapper .main_bottom { 
+    background-color:#E4E4E4;
+}
+#order_holder.order_holder {
+    min-height: 610px;
+}
+#order_holder.order_holder .single_order {
+    width: 24%;
+    margin: 5px .5%;
+    border-radius: 5px;
+    background: #fff;
+    position: relative;
+    height: 275px;
+}
+#order_holder.order_holder .single_order .header_portion {
+    
+    color: #fff;
+}
+#order_holder.order_holder .single_order .header_portion p.order_number {
+    margin: 8px 10px;
+    line-height: 14px;
+}
+#order_holder.order_holder .single_order .header_portion p.order_duration {
+    display: inline-block;
+    padding: 0px 9px;
+    line-height: 26px;
+    margin: 5px 7px;
+    float: right;
+    border-radius: 6px;
+}
+#order_holder.order_holder .single_order .items_holder {
+    /*max-height: 235px;
+    min-height: 235px;*/
+    /*margin: 0px 0px 36px 0px;*/
+}
+#order_holder.order_holder .single_order .items_holder .single_item {
+    padding: 8px 0px;
+    cursor: pointer;
+}
+#order_holder.order_holder .single_order .items_holder .single_item .item_quantity {
+    width: 0%;
+    text-align: center;
+}
+#order_holder.order_holder .single_order .items_holder .single_item .item_quantity p.item_quanity_text {
+
+}
+#order_holder.order_holder .single_order .items_holder .single_item .item_detail {
+    width: 100%;
+    padding:0px 10px;
+}
+#order_holder.order_holder .single_order .items_holder .single_item .item_detail p.item_name {
+
+}
+#order_holder.order_holder .single_order .items_holder .single_item .item_detail p.modifiers {
+    color: #92b554;
+    font-size: 12px;
+}
+#order_holder.order_holder .single_order .items_holder .single_item .item_detail p.note {
+    color:#dc3545;
+    font-size: 12px;
+}
+.single_order_button_holder {
+    background: #cfcfcf;
+    position: absolute;
+    width: 100%;
+    bottom:0px;
+    left:0px;
+}
+.single_order_button_holder button{
+    border: 0px solid #fff;
+    box-shadow: none;
+    background: #cfcfcf;
+    border-radius: 0px;
+    padding: 1px 4.5%;
+    padding: 10px;
+
+}
+.single_order_button_holder button:hover{
+    background:#bbbbbb;
+}
+/* .wrapper .main_top .top_menu #help_button{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: white;
+    box-shadow: 1px 1px 1px 0px #909090;
+    border: solid 1px #cacaca;
+    font-size: 11px;
+    color: #000;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 26px;
+}
+.wrapper .main_top .top_menu #logout_button{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: white;
+    box-shadow: 1px 1px 1px 0px #909090;
+    border: solid 1px #cacaca;
+    font-size: 11px;
+    color: #000;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+.wrapper .main_top .top_menu #notification_button{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: white;
+    box-shadow: 1px 1px 1px 0px #909090;
+    border: solid 1px #cacaca;
+    font-size: 11px;
+    color: #000;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 26px;
+}
+.wrapper .main_top .top_menu #logout_button:hover{
+    background-color: #ccc;   
+} */
+
+#notification_list_modal{
+    padding-top: 70px;
+}
+#modal_notification_list_details{
+    width:600px;
+}
+#modal_notification_header{
+    font-size: 22px;
+    margin: 15px 0px 5px 0px;
+    text-align: left;
+    line-height: 41px;
+    font-weight: normal;
+    border-bottom: 2px solid #cfcfcf;
+    padding-left: 12px;
+}
+#notification_list_header_holder{
+    padding: 0px 10px;
+    margin: 10px 0px 0px 0px;
+}
+.single_notification_check_box{
+    float:left;
+    width: 35px;
+}
+.single_notification{
+    float: left;
+    width: 390px;
+    font-size: 14px;
+
+}
+/* .single_serve_button{
+    float: left;
+    width: 150px;
+    text-align: right;
+    height: 36px;
+} */
+/* .single_serve_button button{
+    margin:0px 5px 0px 0px;
+} */
+.single_serve_b{
+    height: 30px;
+}
+#notification_list_holder{
+    padding: 0px 10px;
+}
+.single_row_notification {
+    position: relative;
+    padding: 15px 0;
+    border-bottom: 1px solid #cfcfcf;
+}
+.single_notification_check_box{
+    float:left;
+    width: 35px;
+}
+.single_notification{
+    float: left;
+    width: 390px;
+    font-size: 14px;
+
+}
+.single_serve_button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* .single_serve_button button{
+    margin:0px 5px 0px 0px;
+} */
+/* 
+#notification_close_delete_button_holder button {
+    border: none;
+    box-shadow: none;
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #495057;
+    background-color: #cfcfcf;
+} */
+/* #notification_close_delete_button_holder #notification_remove_all {
+    float: right;
+} */
+/* #notification_close_delete_button_holder {
+    height: 60px;
+    padding: 10px 10px;
+} */
+
+
+#help_modal .main_header{
+    font-size: 28px;
+    font-weight: normal;
+    margin: 15px 0px 10px 0px;
+    padding: 0px 0px 0px 10px;
+}
+#help_modal .help_content{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0px 10px 0px 10px;
+    text-align: justify;
+}
+#modal_help_content{
+    position:relative;
+}
+.cross_button_to_close{
+    color: #909090;
+    position: absolute;
+    font-size: 26px;
+    margin: 0px;
+    right: 12px;
+    top: 5px;
+    cursor: pointer;
+}
+#group_by_order_item{
+    width:90%;
+}
+#group_by_order_item_holder #group_by_order_item{
+    height:45px;
+}
+.start_cooking_button,.done_cooking{
+    display:none;
+}
+.single_item_right_side{
+    width:36%;
+    float:left;
+    padding:0px 4% 0px 0px;
+}
+.single_item_left_side{
+    width:60%;
+    float:left;
+}
+.single_item_cooking_status{
+    text-align: right;
+}
+body::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+    background: rgb(197, 197, 197);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*      Tablet Layout: 768px.
+            */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*      Mobile Layout: 320px.
+         */
+
+@media only screen and (max-width: 767px) {
+
+}
+/*      Wide Mobile Layout: 480px.
+        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

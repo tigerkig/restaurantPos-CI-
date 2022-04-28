@@ -1,0 +1,17 @@
+.required_star{
+    color: #dd4b39;
+}
+
+.radio_button_problem{
+    margin-bottom: 19px;
+}
+.radio_button_problem a svg{
+    stroke: #00c0ef;
+    width: 22px;
+    position: relative;
+    top: 7px;
+    left: 5px;
+}
+.online_txt_1{
+    color: #E04F54; font-weight: bold; font-size: 18px;
+}

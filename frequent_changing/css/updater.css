@@ -1,0 +1,132 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#update {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    height: 100vh;
+}
+
+#ci_message.error {
+    color: #ff7979 !important;
+}
+
+.update .update-txt {
+    position: relative;
+    margin: 0px auto 20px;
+}
+
+.update .update-txt h1 {
+
+    font-size: 236px;
+    font-weight: 200;
+    margin: 0px auto;
+    color: #34495e;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.update .update-txt h2 {
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #211b19;
+    background: #fff;
+    text-align: center;
+}
+.back_to_login{
+    margin-top: 40px !important;
+    background: none !important;
+    color: #2c3e50 !important;
+}
+.update a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 13px 23px;
+    background: #3867d6;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+}
+
+.update a:hover {
+    color: #fff;
+    background: #4b7bec;
+}
+.whats_new{
+    text-align:center;
+}
+.whats_new h1{
+    color:#3867d6;
+    width: 50%;
+    text-align:left;
+    margin:10px auto;
+}
+.whats_new ol {
+    width: 48%;
+    color:#636e72;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.whats_new li {
+    text-align: left;
+    padding: 5px 0;
+}
+@media only screen and (max-width: 767px) {
+    .update .update-txt h1 {
+        font-size: 148px;
+    }
+    .whats_new ul {
+        width: 80%;
+        margin: 0 auto;
+        list-style: none;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .update .update-txt {
+        height: 148px;
+        margin: 0px auto 10px;
+    }
+    .update .update-txt h1 {
+        font-size: 86px;
+    }
+    .update .update-txt h2 {
+        font-size: 16px;
+    }
+    .update a {
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+}
+
+.text-color-red{
+    color:red !important;
+}
+.letf_margin{
+    margin-left:25px !important;
+}
+.txt_w_1{
+    margin-left:25px;
+    display: none
+}
+.txt_w_2{
+    width: 100%;
+    margin-left:25px;
+    margin-top: 10px;
+}
+.txt_w_3{
+    width: 95%;
+}

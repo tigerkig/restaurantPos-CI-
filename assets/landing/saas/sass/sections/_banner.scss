@@ -1,0 +1,77 @@
+/*----------------------------------------------
+    ## Banner
+----------------------------------------------*/
+.banner-inner {
+	h1 {
+		font-size: 50px;
+		color: #fff;
+		margin-bottom: 32px;
+	}
+	p {
+		color: #fff;
+		margin-bottom: 45px;
+	}
+}
+.video-thumb {
+	position: relative;
+	.video-play-btn {
+		position: absolute;
+        bottom: 38px;
+    	left: 229px;
+	}
+}
+
+
+.banner-area {
+	background-size: cover !important;
+    background-position: bottom !important;
+}
+.banner-area-1 {
+	padding: 205px 0;
+	.video-thumb {
+		margin-right: -120px;
+	}
+	.banner-inner {
+		h1 {
+        	animation: 1.5s 0.4s fadeInLeft both;
+		}
+		p {
+			animation: 1.5s 0.6s fadeInLeft both;
+		}
+		.btn {
+			animation: 1.5s 0.8s fadeInLeft both;
+		}
+	}
+}
+.banner-area-2 {
+	padding: 210px 0 0;
+	margin-bottom: 43px;
+	.thumb {
+		margin-bottom: -110px;
+	}
+	.banner-inner {
+		h1 {
+        	animation: 1.5s 0.4s fadeInUp both;
+		}
+		a {
+			animation: 1.5s 0.6s fadeInUp both;
+		}
+	}
+}
+
+
+
+//client-slider 
+.client-slider {
+	.thumb {
+		img {
+			width: auto !important;
+			display: inline-block;
+		    filter: grayscale(1);
+		    transition: 0.4s;
+		    &:hover {
+		    	filter: grayscale(0);
+		    }
+		}
+	}
+}

@@ -1,0 +1,14 @@
+body {
+    width: 8.50in;
+}
+
+.label {
+    width: 1.02in;
+    /* plus .6 inches from padding */
+    height: 1.02in;
+    /* plus .125 inches from padding */
+    padding: 0.04in 0.04in 0.10in;
+    text-align: center;
+    overflow: hidden;
+    border: 1px dotted #000;
+}

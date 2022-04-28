@@ -1,0 +1,32 @@
+/************ animate style ************/
+.top_image_bounce {
+  animation: top-image-bounce 3s infinite ease-in-out;
+}
+@keyframes top-image-bounce {
+  0% {
+    transform: translateY(-8px);
+  }
+  50% {
+    transform: translateY(12px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}
+@keyframes left-image-bounce {
+  0% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(-5px);
+  }
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+    transform-origin: 50%;
+  }
+}

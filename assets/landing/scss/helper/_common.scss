@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+}
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @extend .poppins-font;
+}
+body {
+  @extend .roboto-font;
+  font-size: 18px;
+}
+.m-top-4rem {
+  margin-top: 4rem;
+}
+.m-bottom-4rem {
+  margin-bottom: 4rem;
+}
+.txt-right {
+  text-align: right !important;
+}
+.txt-left {
+  text-align: left !important;
+}
+.overflowX-hide {
+  overflow-x: hidden;
+}
+.bg-light-grey {
+  background-color: #fcfcfc;
+}
+.img-shadow {
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+}
+.img-w-300 {
+  width: 300px;
+  height: auto;
+}
+.m-bottom {
+  margin-bottom: 5rem;
+}
+.recipe-box {
+  position: relative;
+  padding: 30px;
+  border: 2px solid #353535;
+  border-radius: 10px;
+  .title {
+    display: inline-block;
+    position: absolute;
+    top: -25px;
+    padding: 10px 20px;
+    background-color: white;
+  }
+  ol {
+    line-height: 40px;
+    margin: 0;
+    li {
+      font-weight: bold;
+    }
+  }
+}

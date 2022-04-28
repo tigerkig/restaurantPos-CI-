@@ -1,0 +1,154 @@
+.bg-blue-color {
+  background-color: $primary-color;
+  color: white;
+}
+/*
+  Custom Btn Style
+*/
+.bg-red-btn {
+  background-color: $red;
+  &:hover,
+  &:focus {
+    box-shadow: 0 8px 25px -8px $red !important;
+  }
+}
+.bg-blue-btn {
+  background-color: $primary-color;
+  &:hover,
+  &:focus {
+    box-shadow: 0 8px 25px -8px $primary-color !important;
+  }
+}
+.bg-blue-btn,
+.bg-red-btn {
+  color: white;
+  text-decoration: none;
+  padding: 8.5px 21px !important;
+  border-radius: 0.358rem !important;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  svg {
+    width: 14px;
+    height: 14px;
+  }
+  &:hover,
+  &:focus {
+    color: white;
+  }
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+}
+.txt-color-grey {
+  color: #636363 !important;
+}
+.txt-color-primary {
+  color: $primary-color !important;
+}
+.modal-body {
+  .select2-container {
+    width: 100% !important;
+  }
+}
+/*
+  Re-Use Class
+*/
+.m-left {
+  margin-left: 10px;
+}
+.m-right {
+  margin-right: 10px;
+}
+.p-cursor {
+  cursor: pointer;
+}
+
+select:focus,
+input:focus {
+  box-shadow: none !important;
+}
+
+/*
+  Sweet Alert Style Start
+*/
+.sweet-alert button.cancel {
+  border: 1px solid #ea5455 !important;
+  background-color: transparent !important;
+  color: #ea5455 !important;
+  transition: all 0.3s;
+  &:hover {
+    background-color: rgba(234, 84, 84, 0.1) !important;
+  }
+}
+.sa-button-container {
+  .sa-confirm-button-container {
+    .confirm {
+      background-color: $primary-color !important;
+      padding: 0.786rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 0.358rem;
+      transition: all 0.3s;
+      &:hover {
+        box-shadow: 0 8px 25px -8px $primary-color !important;
+      }
+    }
+  }
+}
+.swal2-confirm {
+  background-color: $primary-color !important;
+  padding: 0.786rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.358rem;
+  box-shadow: none;
+  transition: all 0.3s;
+  &:hover {
+    box-shadow: 0 8px 25px -8px $primary-color !important;
+  }
+}
+/*
+  Sweet Alert Style End
+*/
+
+.nav-tabs {
+  border-color: transparent;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+  color: #6e6b7b;
+  &:hover {
+    border-color: transparent;
+  }
+  &.active {
+    color: $primary-color;
+    border-color: transparent transparent $primary-color transparent;
+    border-width: 2px;
+  }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f7f7f7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $primary-color;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darken($primary-color, 4);
+}

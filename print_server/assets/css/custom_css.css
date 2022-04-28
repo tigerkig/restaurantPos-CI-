@@ -1,0 +1,300 @@
+.txt_1 {
+  font-size: 16px;
+  text-align: left;
+  width: 125px;
+  float: left;
+}
+.txt_2 {
+  float: right;
+  width: 13px;
+  margin: 2px;
+  transition: 0.25s ease-out;
+}
+.txt_3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  width: 125px;
+  float: left;
+}
+.txt_4 {
+  font-size: 16px;
+}
+.txt_5 {
+  cursor: pointer;
+}
+.txt_5 {
+  margin-top: 0px;
+}
+.txt_6 {
+  margin-top: 0px;
+  background-color: #b6d6f6;
+}
+.txt_7 {
+  background-color: #b6d6f6;
+}
+.txt_8 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  width: 125px;
+  float: left;
+}
+.txt_9 {
+  display: flex;
+}
+.txt_10 {
+  width: 405px;
+}
+.txt_11 {
+  display: none;
+}
+.txt_12 {
+  line-height: 15px !important;
+}
+.txt_13 {
+  border-left: solid 2px #dedede;
+}
+.txt_14 {
+  margin-top: 0px;
+}
+.txt_15 {
+  font-size: 16px;
+  text-align: left;
+  width: 125px;
+  float: left;
+}
+.txt_16 {
+  font-size: 16px;
+}
+.txt_17 {
+  font-weight: bold;
+  font-style: italic;
+}
+.txt_18 {
+  padding-bottom: 5px;
+}
+.txt_19 {
+  padding-left: 10px;
+}
+.txt_20 {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.txt_21 {
+  width: 100%;
+}
+.txt_22 {
+  color: white;
+}
+.txt_24 {
+  width: 10%;
+  padding-left: 10px;
+}
+.txt_25 {
+  cursor: pointer;
+}
+.txt_26 {
+  width: 12%;
+  padding-left: 10px;
+}
+.txt_27 {
+  width: 11%;
+  text-align: right;
+}
+.txt_28 {
+  height: 280px;
+}
+.txt_28 {
+  height: 280px;
+}
+.txt_29 {
+  width: 95.5%;
+}
+.txt_30 {
+  width: 25%;
+}
+.txt_31 {
+  width: 10%;
+}
+.txt_32 {
+  width: 20%;
+}
+.txt_33 {
+  width: 15%;
+}
+.txt_34 {
+  padding-right: 11px;
+}
+.txt_inactive {
+  opacity: 0.4;
+}
+.txt_inactive_btn {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.tb_outlet {
+  width: 32%;
+  padding: 4px;
+}
+.tb_outlet a {
+  height: 30px;
+  line-height: 25px;
+}
+.tb_outlet_100 {
+  width: 100% !important;
+}
+.txt_35 {
+  padding: 5px !important;
+}
+.txt_37 {
+  cursor: pointer;
+}
+.txt_38 {
+  margin-bottom: 10px;
+}
+.txt_39 {
+  background-color: white;
+  color: black;
+  padding: 1%;
+  padding-left: 3%;
+}
+.txt_40 {
+  text-align: center;
+  background-color: #3c8dbc;
+  color: white;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  margin-left: -10px;
+  margin-right: -3px;
+  margin-top: -3px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.txt_41 {
+  font-size: 14px;
+}
+.txt_42 {
+  width: 100%;
+  float: left;
+}
+.txt_43 {
+  width: 30%;
+  float: left;
+  margin-right: 3.33%;
+}
+.txt_44 {
+  padding: 12px;
+}
+.txt_45 {
+  padding: 12px;
+  background-color: #3c8dbc;
+}
+.txt_46 {
+  width: 33.33%;
+  float: left;
+}
+.txt_47 {
+  margin-top: 6px;
+  color: #636363;
+}
+.txt_48 {
+  margin-top: 6px;
+  color: #636363;
+}
+.txt_49 {
+  margin-bottom: 10px;
+}
+.txt_50 {
+  margin-bottom: 10px;
+}
+.color_red {
+  color: red;
+}
+.txt_51 {
+  font-size: 21px;
+  vertical-align: middle;
+  text-align: center;
+}
+.txt_plus {
+  font-size: 25px !important;
+}
+.txt_52 {
+  margin-top: 6px !important;
+}
+.outlet-box {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+}
+.outlet-box .img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.outlet-box .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.outlet-box .title {
+  margin: 10px 0 5px 0;
+}
+.outlet-box .outlet_code,
+.outlet-box .title,
+.outlet_address,
+.outlet_phone {
+  text-align: center;
+}
+.outlet_address {
+  margin-top: 15px;
+}
+.outlet-box .outlet_code {
+  color: #858585;
+}
+.outlet-box .btn_box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+  gap: 10px;
+  margin-top: 20px;
+}
+.outlet-box .btn_box .btn {
+  text-transform: capitalize;
+}
+.outlet-box .btn_box .btn-success {
+  background-color: #6ab04c;
+}
+.outlet-box .btn_box .btn-success:hover {
+  background-color: #487e31;
+}
+.outlet-box .btn_box .btn-danger {
+  background-color: #eb4d4b;
+}
+.outlet-box .btn_box .btn-danger:hover {
+  background-color: #af312f;
+}
+.select_outlet_dashboard {
+  width: 170px !important;
+  margin-left: 9px;
+}
+.float_left {
+  float: left;
+}
+
+.dataTables_length {
+  margin-top: 5px !important;
+}
+.txt-uh-59 {
+  cursor: move !important;
+}
+.txt_53 {
+  vertical-align: top !important;
+  padding-top: 2px !important;
+  padding-left: 7px !important;
+}
